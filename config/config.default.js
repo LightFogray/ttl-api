@@ -20,7 +20,7 @@ module.exports = appInfo => {
   config.sequelize = {
     dialect: 'mysql',
     host: '127.0.0.1',
-    password:'qwh263625',
+    password:'xxxxxxx',
     port: 3306,
     database: 'tenderland',
     timezone:'+8:00',
@@ -38,9 +38,9 @@ module.exports = appInfo => {
   // oss存储
   config.oss = {  
     client: {
-      accessKeyId: 'LTAI4G9ewdGehx6zVgrVbBmZ',
-      accessKeySecret: 'aare4Ms1aofKVsmAqjrBRdUv9I4Hwl',
-      bucket: 'tenderland',
+      accessKeyId: 'xxxxxx',
+      accessKeySecret: 'xxxxxx',
+      bucket: 'xxxxxx',
       endpoint: 'oss-cn-beijing.aliyuncs.com',
       timeout: '60s',
     },
